@@ -1,0 +1,62 @@
+<?php
+/**
+ * Class PowerSeeder
+ *
+ * @author       <serbinyo@gmail.com>
+ */
+
+use Phinx\Seed\AbstractSeed;
+
+/**
+ * Class PowerSeeder
+ *
+ * Класс отвечает за наполнение таблицы
+ * power тестовыми seed данными
+ */
+class PowerSeeder extends AbstractSeed
+{
+    /**
+     * Run Method.
+     *
+     * Write your database seeder using this method.
+     *
+     * More information on writing seeders is available here:
+     * http://docs.phinx.org/en/latest/seeding.html
+     */
+    public function run()
+    {
+        $data = [
+            [
+                'name' => '1.6 л 105 л.с. 5-ступенчатая МКП',
+                'description' => '1.6 л 105 л.с. 5-ступенчатая МКП',
+                'img' => '/img/power/power.jpg',
+                'cost' => '0',
+            ],
+            [
+                'name' => '1.6 л 105 л.с. 6-ступенчатая АКП',
+                'description' => '1.6 л 105 л.с. 6-ступенчатая АКП',
+                'img' => '/img/power/power.jpg',
+                'cost' => '30000',
+            ],
+            [
+                'name' => '1.6 л 125 л.с. 5-ступенчатая МКП',
+                'description' => '1.6 л 125 л.с. 5-ступенчатая МКП',
+                'img' => '/img/power/power.jpg',
+                'cost' => '40000',
+            ],
+            [
+                'name' => '1.6 л 125 л.с. 6-ступенчатая АКП',
+                'description' => '1.6 л 125 л.с. 6-ступенчатая АКП',
+                'img' => '/img/power/power.jpg',
+                'cost' => '70000',
+            ],
+            [
+                'name' => '1.5 л EcoBoost 150 л.с. 6-ступенчатая АКП',
+                'description' => '1.5 л EcoBoost 150 л.с. 6-ступенчатая АКП',
+                'img' => '/img/power/power.jpg',
+                'cost' => '155000',
+            ],
+        ];
+        $this->table('power')->insert($data)->save();
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration max_messages_per_file="100" tool_path="/usr/bin/phpmd" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration max_messages_per_file="100" standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="/usr/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpRuntimeConfiguration" default_stubs_path="$PROJECT_DIR$/../phpstorm-stubs" />
+</project>

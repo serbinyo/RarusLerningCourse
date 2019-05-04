@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    /*background: #FFE680;*/
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 370px;
+    text-align: center;
+    /*background: #FFE680;*/
+}
+
+.main-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.furnish-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 70px;
+}
+
+
+.main-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Breadcrumbs
+-----------------------------------------------------------------------------*/
+.nav-bar {
+
+}
+
+.nav-bar a {
+    float: left;
+    margin-right: 4px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar a:hover {
+    color: lightsteelblue;
+}
+
+.nav-bar form {
+    float: left;
+    margin-right: 4px;
+}
+
+.nav-button {
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    color: lightsteelblue;
+}
+
+.arrows {
+    margin: 0 4px;
+    float: left;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+    width: 100%;
+    position: relative;
+}
+
+.middle:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.content {
+    padding: 0 0 0 270px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+    float: left;
+    width: 150px;
+    margin-left: -100%;
+    position: relative;
+    /*background: #B5E3FF;*/
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    height: 100px;
+    /*background: #BFF08E;*/
+}
+
+
+/* Results
+-----------------------------------------------------------------------------*/
+#tableResults tr, td {
+    margin: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,119 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://serbin:81/api/add/user
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="login";
+
+seller1
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="last_name";
+
+Тарли
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="first_name";
+
+Сэм
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="middle_name";
+
+Итанович
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="birthday";
+
+1982-05-01
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="phone_number";
+
+79786921839
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="position";
+
+seller
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="password";
+
+222222
+--WebAppBoundary--
+
+###
+
+######################################################################################
+############################ http://bravo.rarus-crimea.ru ############################
+######################################################################################
+
+POST http://bravo.rarus-crimea.ru/api/add/user
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="login";
+
+seller1
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="last_name";
+
+Тарли
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="first_name";
+
+Сэм
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="middle_name";
+
+Итанович
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="birthday";
+
+1982-05-01
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="phone_number";
+
+79786921839
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="position";
+
+seller
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="password";
+
+222222
+--WebAppBoundary--
+
+###
+

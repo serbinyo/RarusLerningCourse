@@ -1,0 +1,13 @@
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('1', '1', '/img/complectation_color/white_h.jpg', '1');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('2', '2', '/img/complectation_color/blue_h.jpg', '1');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('3', '3', '/img/complectation_color/black_h.jpg', '1');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('4', '4', '/img/complectation_color/red_h.jpg', '1');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('5', '1', '/img/complectation_color/white_s.jpg', '2');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('6', '2', '/img/complectation_color/blue_s.jpg', '2');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('7', '3', '/img/complectation_color/black_s.jpg', '2');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('8', '4', '/img/complectation_color/red_s.jpg', '2');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('9', '1', '/img/complectation_color/white_and_black.jpg', '3');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('10', '1', '/img/complectation_color/white_u.jpg', '4');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('11', '2', '/img/complectation_color/blue_u.jpg', '4');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('12', '3', '/img/complectation_color/black_u.jpg', '4');
+INSERT INTO `carconst`.`complectation_color` (`id`, `color_id`, `img`, `complectation_id`) VALUES ('13', '4', '/img/complectation_color/red_u.jpg', '4');

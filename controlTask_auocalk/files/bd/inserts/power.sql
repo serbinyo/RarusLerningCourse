@@ -1,0 +1,5 @@
+INSERT INTO `autocalk`.`power` (`id`, `name`, `description`, `cost`, `img`) VALUES ('1', '1.6 л 105 л.с. 5-ступенчатая МКП', '1.6 л 105 л.с. 5-ступенчатая МКП', '0', '/img/power/power.jpg');
+INSERT INTO `autocalk`.`power` (`id`, `name`, `description`, `cost`, `img`) VALUES ('2', '1.6 л 105 л.с. 6-ступенчатая АКП', '1.6 л 105 л.с. 6-ступенчатая АКП', '30000', '/img/power/power.jpg');
+INSERT INTO `autocalk`.`power` (`id`, `name`, `description`, `cost`, `img`) VALUES ('3', '1.6 л 125 л.с. 5-ступенчатая МКП', '1.6 л 125 л.с. 5-ступенчатая МКП', '40000', '/img/power/power.jpg');
+INSERT INTO `autocalk`.`power` (`id`, `name`, `description`, `cost`, `img`) VALUES ('4', '1.6 л 125 л.с. 6-ступенчатая АКП', '1.6 л 125 л.с. 6-ступенчатая АКП', '70000', '/img/power/power.jpg');
+INSERT INTO `autocalk`.`power` (`id`, `name`, `description`, `cost`, `img`) VALUES ('5', '1.5 л EcoBoost 150 л.с. 6-ступенчатая АКП', '1.5 л EcoBoost 150 л.с. 6-ступенчатая АКП', '155000', '/img/power/power.jpg');

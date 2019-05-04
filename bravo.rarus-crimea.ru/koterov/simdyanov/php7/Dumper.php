@@ -1,0 +1,74 @@
+<?php
+/**
+ * Class Dumper
+ *
+ * @author       <serbinyo@gmail.com>
+ */
+
+namespace Koterov\Symdyanov\Php7\Dumper;
+
+/**
+ * Class Dumper
+ *
+ * Класс Dumper использован как обертка для функции dumper
+ *
+ * @package Koterov\Symdyanov\Php7\Dumper
+ */
+class Dumper
+{
+
+    /**
+     * Функция dumper($obj)
+     *
+     * Функция для вывода содержимого переменной.
+     * Распечатывает дамп переменной на экран.
+     * использует функцию dumperGet
+     *
+     * @param  array|object $obj
+     */
+    public static function dumper($obj)
+    {
+        echo
+        '<pre>',
+        htmlspecialchars(self::dumperGet($obj)),
+        '</pre>';
+    }
+
+
+    /**
+     * функция dumperGet
+     *
+     * предложен авторами книги "PHP 7 в подлиннике"
+     * Котеровым Д. и Симдяновым И. как улучшенная версия var_dump
+     * печатает с отступами, делает наглядный вывод     *
+     *
+     * @author D.Koterov <dmitry.koterov@gmail.com>
+     * @author D.Koterov <igorsimdyanov@gmail.com>
+     *
+     * @param array|object $obj    обьект для дампа
+     * @param string       $leftSp в переменной храниться строка с пробелами, которая будет выводиться слева от текста.
+     *
+     * @return string Возвращает строку - дамп значения переменной в древовидной форме (если это массив или объект)
+     */
+    public static function dumperGet(&$obj, $leftSp = '')
+    {
+        if (is_array($obj)) {
+            $type = 'Array[' . count($obj) . ']';
+        } elseif (is_object($obj)) {
+            $type = 'Object';
+        } elseif (is_bool($obj)) {
+            return $obj ? 'true' : 'false';
+        } else {
+            return "\"$obj\"";
+        }
+        $buf = $type;
+        $leftSp .= '    ';
+        foreach ($obj as $k => $v) {
+            if ($k === 'GLOBALS') {
+                continue;
+            }
+            $buf .= "\n$leftSp$k => " . self::dumperGet($v, $leftSp);
+        }
+        return $buf;
+    }
+}

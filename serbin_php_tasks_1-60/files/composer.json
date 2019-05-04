@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/filesystem": "^4.2",
+        "symfony/finder": "^4.2",
+        "monolog/monolog": "^1.24",
+        "doctrine/dbal": "^2.9",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koterov\\Symdyanov\\Php7\\Dumper\\" : "koterov/simdyanov/php7/"
+        }
+    }
+}

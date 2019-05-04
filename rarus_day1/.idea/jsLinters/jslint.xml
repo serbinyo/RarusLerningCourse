@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JSLintConfiguration">
+    <option bitwise="true" />
+    <option browser="true" />
+    <option devel="true" />
+    <option eval="true" />
+    <option for="true" />
+    <option maxerr="100" />
+    <option multivar="true" />
+    <option globals="BX24,BX,angular,$,frameCacheVars" />
+    <option single="true" />
+    <option this="true" />
+    <option white="true" />
+  </component>
+</project>

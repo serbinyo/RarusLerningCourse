@@ -1,0 +1,46 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://serbin:81/api/update/turnover/4
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="purchase"
+
+Меч из Драконьго стекла. Игрушка
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="amount"
+
+800
+--WebAppBoundary--
+
+###
+
+######################################################################################
+############################ http://bravo.rarus-crimea.ru ############################
+######################################################################################
+
+POST http://bravo.rarus-crimea.ru/api/update/turnover/1
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="purchase"
+
+Брюки 'Король Севера' 5шт
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="amount"
+
+2500
+--WebAppBoundary--
+
+###

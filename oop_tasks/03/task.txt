@@ -1,0 +1,22 @@
+Задача 3 Url
+       Реализуйте класс Url который описывает переданный в конструктор HTTP адрес и позволяет извлекать из него части:
+
+       <?php
+
+       $url = new Url('http://yandex.ru?key=value&key2=value2');
+       $url->getScheme(); // http
+       $url->getHost(); // yandex.ru
+       $url->getQueryParams();
+       // [
+       //     'key' => 'value',
+       //     'key2' => 'value2'
+       // ];
+       $url->getQueryParam('key'); // value
+       // второй параметр - значение по умолчанию
+       $url->getQueryParam('key2', 'lala'); // value2
+       $url->getQueryParam('new', 'ehu'); // ehu
+
+       Подсказка:
+       Опишите интерфейсе UrlInterface
+       Для разбора адреса воспользуйтесь функцией parse_url
+       Query Params придется разобрать самостоятельно

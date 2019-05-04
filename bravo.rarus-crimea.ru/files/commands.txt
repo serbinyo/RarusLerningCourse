@@ -1,0 +1,18 @@
+МИГРАЦИИ phinx
+
+Для создания миграций и сид файлов:
+./vendor/bin/phinx create CreateColorTable
+./vendor/bin/phinx seed:create BodytypeSeeder
+
+Для отката на один шаг назад(по таблице phinxlog):
+./vendor/bin/phinx rollback -e development
+
+Для выполнения миграциий и сид файлов
+./vendor/bin/phinx migrate -e development
+./vendor/bin/phinx seed:run -e development
+
+
+ДОКУМЕНТИРОВАНИЕ phpDocumentor
+
+Для генерирования документации
+php phpDocumentor.phar -d db -d koterov/ -d lib/ -t docs

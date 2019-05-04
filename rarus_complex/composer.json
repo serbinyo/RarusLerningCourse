@@ -1,0 +1,13 @@
+{
+  "require" : {
+    "doctrine/dbal": "^2.9",
+    "ext-json"     : "*",
+    "monolog/monolog": "^1.24"
+  },
+  "autoload": {
+    "psr-4": {
+      "Classes\\": "classes/",
+      "Classes\\Model\\": "classes/model/"
+    }
+  }
+}

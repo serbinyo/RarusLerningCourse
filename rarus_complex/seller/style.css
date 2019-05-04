@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+}
+
+.wrapper {
+    min-width: 650px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 150px;
+    background: #B5E3FF;
+}
+
+.title {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: dimgray;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+    width: 100%;
+    position: relative;
+}
+
+.middle:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.content {
+    padding: 0 0 0 270px;
+}
+
+a {
+    color: black;
+    margin: 10px;
+}
+
+a:hover {
+    color: dimgray;
+}
+
+.left-sidebar a {
+    text-decoration: none;
+}
+
+#display {
+    margin: 1.5em 0;
+}
+
+#filters div {
+    margin: 1.5em 0;
+}
+
+form {
+    margin: 1.5em 0;
+    width: 343px;
+}
+
+form input {
+    float: right;
+}
+
+form textarea {
+    float: right;
+}
+
+#filters-num-block, #filters-date-block, #filters-quantity-block,
+#button-show-cards, #button-show-history, #button-show-turnover,
+#button-show-turnover-cards, #button-show-card, #button-show-bonuses,
+#button-bonus-credit, #button-bonus-debit, #button-delete-card,
+#update-discount-section, #update-bonuses-section, #update-status-section,
+#create-card-section, #update-card-section, #add-purchase-section {
+    display: none;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+    float: left;
+    width: 250px;
+    margin-left: -100%;
+    position: relative;
+    background: #FFE680;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    height: 50px;
+    background: #BFF08E;
+}

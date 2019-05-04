@@ -1,0 +1,143 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+POST http://serbin:81/api/update/card/4
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="num";
+
+0004
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="last_name";
+
+Ушаков
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="first_name";
+
+Федор
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="middle_name";
+
+Федорович
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="birthday";
+
+2019-04-11
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="phone_number";
+
+79785552525
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="bonus";
+
+100
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="discount";
+
+5
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="turnover_amount";
+
+0
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="status";
+
+Активна
+--WebAppBoundary--
+
+###
+
+######################################################################################
+############################ http://bravo.rarus-crimea.ru ############################
+######################################################################################
+
+POST http://bravo.rarus-crimea.ru/api/update/card/4
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="num";
+
+0004
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="last_name";
+
+Ушаков
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="first_name";
+
+Федор
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="middle_name";
+
+Федорович
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="birthday";
+
+2019-04-11
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="phone_number";
+
+79785552525
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="bonus";
+
+100
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="discount";
+
+5
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="turnover_amount";
+
+0
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="status";
+
+Активна
+--WebAppBoundary--
+
+###

@@ -1,0 +1,11 @@
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('1', '1', '1', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('2', '1', '2', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('3', '1', '3', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('4', '2', '1', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('5', '2', '2', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('6', '2', '3', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('7', '3', '1', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('8', '3', '2', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('9', '4', '1', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('10', '4', '2', 'no');
+INSERT INTO `carconst`.`complectation_bodytype` (`id`, `complectation_id`, `bodytype_id`, `img`) VALUES ('11', '4', '3', 'no');

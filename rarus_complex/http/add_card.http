@@ -1,0 +1,93 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://serbin:81/api/add/card
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="num";
+
+4
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="last_name";
+
+Ланистер
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="first_name";
+
+Джейми
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="middle_name";
+
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="birthday";
+
+1972-08-12
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="phone_number";
+
+79786652539
+--WebAppBoundary--
+
+###
+
+######################################################################################
+############################ http://bravo.rarus-crimea.ru ############################
+######################################################################################
+
+POST http://bravo.rarus-crimea.ru/api/add/card
+Authorization: Basic bWFuMToxMTExMTE=
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="num";
+
+6
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="last_name";
+
+Овечкин
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="first_name";
+
+Александр
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="middle_name";
+
+Михайлович
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="birthday";
+
+1985-09-17
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="phone_number";
+
+79786657710
+--WebAppBoundary--
+
+###

@@ -1,0 +1,50 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://serbin:81/api/show/turnover
+Authorization: Basic bWFuMToxMTExMTE=
+
+###
+
+GET http://serbin:81/api/show/turnover?count=quantity
+Authorization: Basic bWFuMToxMTExMTE=
+
+###
+
+GET http://serbin:81/api/show/turnover?from=20190416&to=20190417
+Authorization: Basic bWFuMToxMTExMTE=
+
+###
+
+GET http://serbin:81/api/show/turnover?from=20190416&to=20190417&count=quantity
+Authorization: Basic bWFuMToxMTExMTE=
+
+###
+
+######################################################################################
+############################ http://bravo.rarus-crimea.ru ############################
+######################################################################################
+
+GET http://bravo.rarus-crimea.ru/api/show/turnover
+Authorization: Basic bWFuMToxMTExMTE=
+
+###
+
+GET http://bravo.rarus-crimea.ru/api/show/turnover?count=quantity
+Authorization: Basic bWFuMToxMTExMTE=
+
+###
+
+GET http://bravo.rarus-crimea.ru/api/show/turnover?from=20190416&to=20190417
+Authorization: Basic bWFuMToxMTExMTE=
+
+###
+
+GET http://bravo.rarus-crimea.ru/api/show/turnover?from=20190416&to=20190417&count=quantity
+Authorization: Basic bWFuMToxMTExMTE=
+
+###

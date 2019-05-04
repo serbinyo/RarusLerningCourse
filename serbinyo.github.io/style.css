@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px sans-serif;
+    width: 100%;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: fantasy;
+    color: gray;
+}
+
+h5 {
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    margin: 0.5em 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: #515151;
+}
+
+
+.wrapper {
+    min-width: 650px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-right: 4em;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+}
+
+.fio {
+    text-align: center;
+    font-size: large;
+}
+
+.intro {
+    display: flex;
+}
+
+.title {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    width: 100%;
+    padding: 2em 0 0 12em;
+}
+
+.ava {
+    padding-top: 1em;
+    padding-right: 7em;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    padding: 3em 0 0 12em;
+}
+
+.links p {
+    margin: 0.5em 0;
+}
+
+.links a {
+    font-weight: bold;
+}
+
+.disqus {
+    margin-top: 2.5em;
+    padding-top: 2em;
+    padding-right: 7em;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    padding: 3em 0 0 12em;
+    height: 100px;
+}
